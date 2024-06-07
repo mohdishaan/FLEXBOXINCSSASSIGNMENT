@@ -1,0 +1,10 @@
+Q2 Explain the role of the following key properties in the flexbox layout model.
+1.Justify-Content: It controls the alignment of the flex items along the main axis of the flex container. There are values for justify content which includes flex-start, flex-end, center, space-between, space-evenly and space-around.
+
+2.Align-items: It controls the alignment of the flex items along the cross axis of the flex container. There are values for align-items which includes flex-start, flex-end, center, baseline, stretch.
+
+3.Gap: This property is used to define the space between the flex items in both the directions, i.e along main axis and cross axis. It simplifies spacing and creates consistent gaps between items without needing to apply margins to individual items.
+
+4.Flex-direction: This property determines the direction in which flex items are placed within the flex container. It have values like row (horizontally), row-reverse , column(vertically) , column-reverse.
+
+5.Flex-wrap: This property controls whether flexitems are allowed  to wrap onto multiple lines within the flex container when they dont fit along the main axis. It accepts values like nowrap, wrap, wrap reverse.

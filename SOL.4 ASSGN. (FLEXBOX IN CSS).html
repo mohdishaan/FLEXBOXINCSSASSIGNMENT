@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox in CSS Assignment</title>
+    <style>
+        .card-1{
+            width: 250px;
+            height: fit-content;
+            background-color: white;
+            border-radius: 7px;
+            padding-top: 50px;
+            padding-left: 35px;
+            border: 2px solid black;
+        }
+        body, p,h1,h2,h3{
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+        .price{
+            font-size: 36px;
+            font-weight: 100;
+            margin: 12px 0;
+        }
+        .prop{
+            display: flex;
+            align-items: center;
+        }
+        .button-container{
+            display: flex;
+            justify-content: center;
+            margin-left: -35px;
+        }
+        .subscribe{
+            background-color: #202842;
+            color: white;
+            border-radius: 24px;
+            font-size: 18px;
+            padding: 10px 35px;
+            margin: 30px auto;
+            border-color: transparent;
+        }
+        .container{
+            display: flex;
+            min-height:100vh;
+            padding-top: 100px;
+            justify-content: center;
+            gap: 20px;
+            background-color: #F4F2FD;
+            box-sizing: border-box;
+        }
+        img{
+            width: 22px;
+            height: 22px;
+            gap: 0px;
+            opacity: 0px;
+            margin-right: 5px;
+
+        }
+        body{
+            background-color: #202842;
+        }
+        .dark{
+            background-color: #202842;
+            color: white;
+            border: 2px solid white;
+        }
+        .dark-o{
+            background-color: white;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card-1">
+            <h2 style="font-size: 36px;">Free Plan</h2>
+            <p>For Personal</p>
+            <h2 class="price">$0</h2>
+            <p class="prop"><span class="image"><img src="C:\Users\Mohammad Ishaan\Desktop\COURSE\LECTURE-9 FLEX IN CSS\Assignment\SOLUTION\image\check.jpeg" alt=""></span>  1 users</p>
+            <p class="prop"><span class="image"><img src="C:\Users\Mohammad Ishaan\Desktop\COURSE\LECTURE-9 FLEX IN CSS\Assignment\SOLUTION\image\check.jpeg" alt=""></span>  4 web mails</p>
+            <p class="prop"><span class="image"><img src="C:\Users\Mohammad Ishaan\Desktop\COURSE\LECTURE-9 FLEX IN CSS\Assignment\SOLUTION\image\check.jpeg" alt=""></span>  Responsive websites</p>
+            <p class="prop"><span class="image"><img src="C:\Users\Mohammad Ishaan\Desktop\COURSE\LECTURE-9 FLEX IN CSS\Assignment\SOLUTION\image\check.jpeg" alt=""></span>  Free SSL</p>
+            <div class="button-container">
+                <button class="subscribe">Subscribe Now</button>
+            </div>
+        </div>
+
+        <div class="card-1 dark">
+            <h2 style="font-size: 36px;">Basic Plan</h2>
+            <p>For Small bussiness</p>
+            <h2 class="price">$29</h2>
+            <p class="prop"><span class="image"><img src="C:\Users\Mohammad Ishaan\Desktop\COURSE\LECTURE-9 FLEX IN CSS\Assignment\SOLUTION\image\check1.jpeg" alt=""></span>  4 users</p>
+            <p class="prop"><span class="image"><img src="C:\Users\Mohammad Ishaan\Desktop\COURSE\LECTURE-9 FLEX IN CSS\Assignment\SOLUTION\image\check1.jpeg" alt=""></span>  10 web mails</p>
+            <p class="prop"><span class="image"><img src="C:\Users\Mohammad Ishaan\Desktop\COURSE\LECTURE-9 FLEX IN CSS\Assignment\SOLUTION\image\check1.jpeg" alt=""></span>  Responsive websites</p>
+            <p class="prop"><span class="image"><img src="C:\Users\Mohammad Ishaan\Desktop\COURSE\LECTURE-9 FLEX IN CSS\Assignment\SOLUTION\image\check1.jpeg" alt=""></span>  Free SSL</p>
+            <div class="button-container">
+                <button class="subscribe dark-o">Subscribe Now</button>
+            </div>
+        </div>
+
+        <div class="card-1">
+            <h2 style="font-size: 36px;">Pro Plan</h2>
+            <p>For enterprise</p>
+            <h2 class="price">$49</h2>
+            <p class="prop"><span class="image"><img src="C:\Users\Mohammad Ishaan\Desktop\COURSE\LECTURE-9 FLEX IN CSS\Assignment\SOLUTION\image\check.jpeg" alt=""></span>  unlimited users</p>
+            <p class="prop"><span class="image"><img src="C:\Users\Mohammad Ishaan\Desktop\COURSE\LECTURE-9 FLEX IN CSS\Assignment\SOLUTION\image\check.jpeg" alt=""></span>  unlimited web mails</p>
+            <p class="prop"><span class="image"><img src="C:\Users\Mohammad Ishaan\Desktop\COURSE\LECTURE-9 FLEX IN CSS\Assignment\SOLUTION\image\check.jpeg" alt=""></span>  Responsive websites</p>
+            <p class="prop"><span class="image"><img src="C:\Users\Mohammad Ishaan\Desktop\COURSE\LECTURE-9 FLEX IN CSS\Assignment\SOLUTION\image\check.jpeg" alt=""></span>  Free SSL + SEO</p>
+            <div class="button-container">
+                <button class="subscribe">Subscribe Now</button>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
